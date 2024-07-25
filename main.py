@@ -5,7 +5,8 @@ def encode(password):
     # my implementation
     pass
 
-
+def decode(password):
+    pass
 
 # main function: encode, decode, and exit options
 if __name__ == '__main__':
