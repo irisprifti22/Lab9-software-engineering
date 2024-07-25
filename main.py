@@ -1,4 +1,4 @@
-# Lab 9: create a password encoder/decoder program with a partner
+# Iris Prifti Lab 9: create a password encoder/decoder program with a partner
 
 # takes a string of numbers, and returns a string of the numbers after adding 3
 def encode(password):
