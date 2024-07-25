@@ -6,10 +6,8 @@ def encode(password):
     pass
 
 
-# takes a string of numbers, and returns a string of the numbers after subtracting 3
-def decode(password):
-    # partner implementation
-    pass
-
 
 # main function: encode, decode, and exit options
+if __name__ == '__main__':
+    while True:
+        break
