@@ -24,19 +24,19 @@ def main():
         print("1. Encode")
         print("2. Decode")
         print("3. Quit")
-        option = input("Please enter an option: ")
+        option = input("\nPlease enter an option: ")
 
         # menu options
         if option == '1':
             password = input("Please enter the password to encode: ")
             stored_password = encode(password)
-            print("Your password has been encoded and stored!")
+            print("Your password has been encoded and stored!\n")
         elif option == '2':
             if stored_password:
                 original_password = decode(stored_password)
-                print(f"The encoded password is {stored_password}, and the original password is {original_password}.")
+                print(f"The encoded password is {stored_password}, and the original password is {original_password}.\n")
             else:
-                print("No password has been encoded yet.")
+                print("No password has been encoded yet.\n")
         elif option == '3':
             print("Exiting the program.")
             break
