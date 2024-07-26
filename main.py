@@ -3,7 +3,14 @@
 # takes a string of numbers, and returns a string of the numbers after adding 3
 def encode(password):
     # my implementation
-    pass
+    def encode(password):
+        encoded_password = ''.join(str((int(char) + 3) % 10) for char in password)
+        return encoded_password
+
+    # Example usage
+    encoded_password = encode("12345555")
+    print(f"Encoded: {encoded_password}")  # Output: Encoded: 45678888
+
 
 def decode(password):
     pass
