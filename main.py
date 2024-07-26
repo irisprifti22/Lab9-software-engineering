@@ -38,10 +38,9 @@ def main():
             else:
                 print("No password has been encoded yet.\n")
         elif option == '3':
-            print("Exiting the program.")
             break
         else:
-            print("Invalid option. Please try again.")
+            print("Invalid option, please try again.")
 
 # run the main function
 main()
